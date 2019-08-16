@@ -52,7 +52,7 @@ describe User do
       end
 
       it 'has many trips' do
-        expect(logan.trips).to include(reservation)
+        expect(logan.trips).to  include(reservation) #### change back to logan.trips
       end
 
 
